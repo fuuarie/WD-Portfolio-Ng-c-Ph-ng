@@ -1,0 +1,367 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Josefin Sans', sans-serif;
+	min-height: 100vh;
+	width:100%;
+}
+/*button up*/
+
+/*nav*/
+nav{
+	position:fixed;
+	width:200px;
+	background-color: white;
+	height: 100%;
+	top:0;
+	left:0;
+	}
+nav .logo{
+	padding: 70px 45px 10px;
+/*	margin-top: 50px;*/
+}
+nav .logo img{
+	width: 70px;
+}
+nav ul{
+	padding: 10px 0px 0px 5px;
+	
+}
+nav ul li{
+	padding:8px 0px 40px;
+	
+}
+nav ul li a{
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 20px;
+	padding: 42px;
+	color:#2E3356;
+	transition: 0.3s ease ;
+}
+nav ul li a:hover{
+	color:#F34666;
+	border-radius: 25px;
+  	border:2px solid #F34666;
+  padding: 10px;
+  width: 10px;
+  height: 20px; 
+	margin-left: 30px;
+}
+nav .nav-bar{
+	display: flex;
+	justify-content: space-between;
+}
+nav .shortbar{
+	width: 5px;
+	height: 370px;
+	background-color: #2E3356;
+	margin-top: 35%;
+	border-radius: 10px;
+	
+}
+/*header*/
+#wrapper{
+	top:0%;
+	margin-left: 200px;
+	margin-right: 100px;
+	
+}
+header{
+	margin-left:60px;
+	margin-top: 20px;
+}
+header .header-info{
+	display: flex;
+	justify-content: space-between;
+	
+	color:#2E3356;
+}
+header .header-info h3{
+	font-weight: 400;
+	
+}
+header .long-bar{
+	margin-top: 6px;
+	width: 100%;
+	height: 5px;
+	background-color: #2E3356;
+	border-radius: 10px;
+}
+/*home*/
+#home-commision{
+	margin-left: 60px;
+	margin-top: 60px;
+	display: flex;
+	justify-content: space-between;
+	
+}
+#home-commision .home-img{
+	background: url("../IMG/commision.gif");
+	width: 600px;
+	height: 650px;
+	background-size: cover;
+	border-radius: 50px;
+}
+#home-commision .home-info{
+	margin-top: 200px;
+	
+}
+#home-commision .home-info h3{
+	color: #F34666;
+	font-size: 100px;
+}
+#home-commision .home-info p {
+	margin-top: 20px;
+	font-size: 25px;
+	color:#2E3356;
+	font-weight: 600;
+	
+}
+#home-commision .home-info ul{
+	margin-top: 10px;
+	display: flex;
+}
+#home-commision .home-info ul li{
+	list-style: none;
+/*	color: #2E3356;*/
+	font-weight: 700;
+	font-size: 20px;
+	border: 2px solid #2E3356;
+	padding: 10px;
+	border-radius: 20px;
+	margin-right: 20px;
+	transition: 0.2s ease;
+	
+}
+#home-commision .home-info ul li a{
+	text-decoration: none;
+	color: #2E3356;
+	transition: 0.2s ease;
+}
+#home-commision .home-info ul li:hover{
+	
+	background-color: #F34666;
+	border-radius: 20px;
+	border: 2px solid #F34666;
+}
+#home-commision .home-info ul li a:hover{
+	color: white;
+}
+/*watercolor*/
+#Watercolor{
+	margin-top: 200px;
+	margin-left: 60px;
+}
+#Watercolor h3{
+	font-size: 100px;
+	color:#F34666;
+	text-align: center;
+	margin-bottom : 60px;
+}
+#Watercolor .watercolor-info{
+	display: flex;
+	justify-content: space-between;
+}
+#Watercolor .watercolor-img{
+	background: url("../IMG/79305908_585570895592947_8678558536323563520_n.jpg");
+	background-size: cover;
+	width: 600px;
+	height: 650px;
+	border-radius: 60px;
+}
+#Watercolor .watercolor-right{
+	margin-top: 100px;
+}
+#Watercolor .watercolor-right p{
+	font-size: 20px;
+	font-style: italic;
+	color:#2E3356;
+	font-weight: 600;
+}
+#Watercolor .watercolor-right h4{
+	font-size: 30px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color:#F34666;
+}
+#Watercolor .wat-pricelist{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	
+}
+#Watercolor .wat-pricelist h5{
+	font-size: 19px;
+	margin-bottom: 5px;
+	color: #F34666;
+}
+#Watercolor .wat-price-left li, .wat-price-right  li{
+	list-style: none;
+	margin-top: 3px;
+	font-weight: 500;
+	color: #2E3356;
+}
+#Watercolor .wat-price-left, .wat-price-right{
+	margin-bottom: 10px;
+}
+#Watercolor .watercolor-notice li{
+	list-style: none;
+	font-size: 15px;
+	font-weight: 400;
+	color:#5F6568;
+	
+}
+#Watercolor .watercolor-check {
+	
+}
+#Watercolor .watercolor-check ul li{
+	display: inline !important;
+	font-size: 30px;
+	
+}
+#Watercolor .watercolor-check ul li a{
+	color: #2E3356;
+	margin-right: 10px;
+	transition: 0.5s ease;
+}
+#Watercolor .watercolor-check ul li a:hover{
+	color: #F34666;
+	}
+#Watercolor .watercolor-term a{
+	color:#2E3356;
+	text-decoration: none;
+	transition: 0.5s ease;
+}
+#Watercolor .watercolor-term a:hover{
+	color:#F34666;
+}
+/*inking*/
+#Inking{
+	margin-top: 200px;
+	margin-left: 60px;
+}
+#Inking h3{
+	font-size: 100px;
+	color:#F34666;
+	text-align: center;
+	margin-bottom : 60px;
+}
+#Inking .inking-info{
+	display: flex;
+	justify-content: space-between;
+	
+}
+#Inking .inking-img{
+	background: url("../IMG/89228490_649256579224378_969325585576755200_o.jpg");
+	background-size: cover;
+	width: 600px;
+	height: 650px;
+	border-radius: 60px;
+	
+}
+#Inking .inking-right{
+	margin-top: 150px;
+}
+#Inking .inking-right p{
+	font-size: 20px;
+	font-style: italic;
+	color:#2E3356;
+	font-weight: 600;
+}
+#Inking .inking-right h4{
+	font-size: 30px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color:#F34666;
+}
+#Inking .ink-pricelist{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	
+}
+#Inking .ink-pricelist h5{
+	font-size: 19px;
+	margin-bottom: 5px;
+	color: #F34666;
+}
+#Inking .ink-price-left li, .ink-price-right  li{
+	list-style: none;
+	margin-top: 3px;
+	font-weight: 500;
+	color: #2E3356;
+}
+#Inking .ink-price-left, .ink-price-right{
+	margin-bottom: 10px;
+}
+#Inking .inking-notice li{
+	list-style: none;
+	font-size: 15px;
+	font-weight: 400;
+	color:#5F6568;
+	
+}
+#Inking .ink-check {
+	
+}
+#Inking .ink-check ul li{
+	display: inline !important;
+	font-size: 30px;
+	
+}
+#Inking .ink-check ul li a{
+	color: #2E3356;
+	margin-right: 10px;
+	transition: 0.5s ease;
+}
+#Inking .ink-check ul li a:hover{
+	color: #F34666;
+	}
+#Inking .ink-term a{
+	color:#2E3356;
+	text-decoration: none;
+	transition: 0.5s ease;
+}
+#Inking .ink-term a:hover{
+	color:#F34666;
+}
+/*footer*/
+footer{
+	background-color: #2E3356;
+	color: white;
+	margin-top: 150px;
+	
+	
+}
+footer .footer-big{
+	padding: 40px 100px 40px 260px;
+}
+footer .footer-s1{
+	display: flex;
+	justify-content: space-between;
+}
+footer .footer-s1 ul li{
+	display: inline;
+	margin-right: 20px;
+	
+}
+footer .footer-s1 ul li a{
+	color: white;
+	font-size: 25px;
+	transition: 0.5 ease;
+}
+footer .footer-s1 ul li a:hover{
+	color:#F34666;
+}
+footer .footer-s1 h6{
+	font-weight: 500;
+	font-size: 20px;
+}
+footer .footer-s2 {
+	margin-top: 20px;
+	text-align: center;
+}
